@@ -15,13 +15,13 @@
 		CE9037421E078173000055E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9037401E078173000055E6 /* LaunchScreen.storyboard */; };
 		CE90374D1E078173000055E6 /* LJGesturePwdLockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90374C1E078173000055E6 /* LJGesturePwdLockDemoTests.m */; };
 		CE9037581E078173000055E6 /* LJGesturePwdLockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037571E078173000055E6 /* LJGesturePwdLockDemoUITests.m */; };
-		CE9037751E078189000055E6 /* CALayer+LJAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037671E078189000055E6 /* CALayer+LJAnimation.m */; };
-		CE9037761E078189000055E6 /* LJGesturePwdLockController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037691E078189000055E6 /* LJGesturePwdLockController.m */; };
-		CE9037771E078189000055E6 /* LJGesturePwdLockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90376C1E078189000055E6 /* LJGesturePwdLockItem.m */; };
-		CE9037781E078189000055E6 /* LJGesturePwdLockMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90376E1E078189000055E6 /* LJGesturePwdLockMainView.m */; };
-		CE9037791E078189000055E6 /* LJGesturePwdLockShowItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037701E078189000055E6 /* LJGesturePwdLockShowItemsView.m */; };
-		CE90377A1E078189000055E6 /* LJGesturePwdLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037721E078189000055E6 /* LJGesturePwdLockView.m */; };
-		CE90377B1E078189000055E6 /* LJGesturePwdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037741E078189000055E6 /* LJGesturePwdOperation.m */; };
+		CE90378C1E07C27A000055E6 /* CALayer+LJAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90377E1E07C27A000055E6 /* CALayer+LJAnimation.m */; };
+		CE90378D1E07C27A000055E6 /* LJGesturePwdLockController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037801E07C27A000055E6 /* LJGesturePwdLockController.m */; };
+		CE90378E1E07C27A000055E6 /* LJGesturePwdLockItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037831E07C27A000055E6 /* LJGesturePwdLockItem.m */; };
+		CE90378F1E07C27A000055E6 /* LJGesturePwdLockMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037851E07C27A000055E6 /* LJGesturePwdLockMainView.m */; };
+		CE9037901E07C27A000055E6 /* LJGesturePwdLockShowItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037871E07C27A000055E6 /* LJGesturePwdLockShowItemsView.m */; };
+		CE9037911E07C27A000055E6 /* LJGesturePwdLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037891E07C27A000055E6 /* LJGesturePwdLockView.m */; };
+		CE9037921E07C27A000055E6 /* LJGesturePwdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90378B1E07C27A000055E6 /* LJGesturePwdOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,21 +58,21 @@
 		CE9037531E078173000055E6 /* LJGesturePwdLockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJGesturePwdLockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE9037571E078173000055E6 /* LJGesturePwdLockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockDemoUITests.m; sourceTree = "<group>"; };
 		CE9037591E078173000055E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE9037661E078189000055E6 /* CALayer+LJAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+LJAnimation.h"; sourceTree = "<group>"; };
-		CE9037671E078189000055E6 /* CALayer+LJAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LJAnimation.m"; sourceTree = "<group>"; };
-		CE9037681E078189000055E6 /* LJGesturePwdLockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockController.h; sourceTree = "<group>"; };
-		CE9037691E078189000055E6 /* LJGesturePwdLockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockController.m; sourceTree = "<group>"; };
-		CE90376A1E078189000055E6 /* LJGesturePwdLockHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockHeader.h; sourceTree = "<group>"; };
-		CE90376B1E078189000055E6 /* LJGesturePwdLockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockItem.h; sourceTree = "<group>"; };
-		CE90376C1E078189000055E6 /* LJGesturePwdLockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockItem.m; sourceTree = "<group>"; };
-		CE90376D1E078189000055E6 /* LJGesturePwdLockMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockMainView.h; sourceTree = "<group>"; };
-		CE90376E1E078189000055E6 /* LJGesturePwdLockMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockMainView.m; sourceTree = "<group>"; };
-		CE90376F1E078189000055E6 /* LJGesturePwdLockShowItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockShowItemsView.h; sourceTree = "<group>"; };
-		CE9037701E078189000055E6 /* LJGesturePwdLockShowItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockShowItemsView.m; sourceTree = "<group>"; };
-		CE9037711E078189000055E6 /* LJGesturePwdLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockView.h; sourceTree = "<group>"; };
-		CE9037721E078189000055E6 /* LJGesturePwdLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockView.m; sourceTree = "<group>"; };
-		CE9037731E078189000055E6 /* LJGesturePwdOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdOperation.h; sourceTree = "<group>"; };
-		CE9037741E078189000055E6 /* LJGesturePwdOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdOperation.m; sourceTree = "<group>"; };
+		CE90377D1E07C27A000055E6 /* CALayer+LJAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+LJAnimation.h"; sourceTree = "<group>"; };
+		CE90377E1E07C27A000055E6 /* CALayer+LJAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LJAnimation.m"; sourceTree = "<group>"; };
+		CE90377F1E07C27A000055E6 /* LJGesturePwdLockController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockController.h; sourceTree = "<group>"; };
+		CE9037801E07C27A000055E6 /* LJGesturePwdLockController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockController.m; sourceTree = "<group>"; };
+		CE9037811E07C27A000055E6 /* LJGesturePwdLockHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockHeader.h; sourceTree = "<group>"; };
+		CE9037821E07C27A000055E6 /* LJGesturePwdLockItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockItem.h; sourceTree = "<group>"; };
+		CE9037831E07C27A000055E6 /* LJGesturePwdLockItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockItem.m; sourceTree = "<group>"; };
+		CE9037841E07C27A000055E6 /* LJGesturePwdLockMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockMainView.h; sourceTree = "<group>"; };
+		CE9037851E07C27A000055E6 /* LJGesturePwdLockMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockMainView.m; sourceTree = "<group>"; };
+		CE9037861E07C27A000055E6 /* LJGesturePwdLockShowItemsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockShowItemsView.h; sourceTree = "<group>"; };
+		CE9037871E07C27A000055E6 /* LJGesturePwdLockShowItemsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockShowItemsView.m; sourceTree = "<group>"; };
+		CE9037881E07C27A000055E6 /* LJGesturePwdLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdLockView.h; sourceTree = "<group>"; };
+		CE9037891E07C27A000055E6 /* LJGesturePwdLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockView.m; sourceTree = "<group>"; };
+		CE90378A1E07C27A000055E6 /* LJGesturePwdOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdOperation.h; sourceTree = "<group>"; };
+		CE90378B1E07C27A000055E6 /* LJGesturePwdOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +103,7 @@
 		CE9037261E078172000055E6 = {
 			isa = PBXGroup;
 			children = (
+				CE90377C1E07C27A000055E6 /* LJGesturePwdLock */,
 				CE9037311E078172000055E6 /* LJGesturePwdLockDemo */,
 				CE90374B1E078173000055E6 /* LJGesturePwdLockDemoTests */,
 				CE9037561E078173000055E6 /* LJGesturePwdLockDemoUITests */,
@@ -123,7 +124,6 @@
 		CE9037311E078172000055E6 /* LJGesturePwdLockDemo */ = {
 			isa = PBXGroup;
 			children = (
-				CE9037651E078189000055E6 /* LJGesturePwdLock */,
 				CE9037351E078172000055E6 /* AppDelegate.h */,
 				CE9037361E078172000055E6 /* AppDelegate.m */,
 				CE9037381E078172000055E6 /* ViewController.h */,
@@ -163,24 +163,24 @@
 			path = LJGesturePwdLockDemoUITests;
 			sourceTree = "<group>";
 		};
-		CE9037651E078189000055E6 /* LJGesturePwdLock */ = {
+		CE90377C1E07C27A000055E6 /* LJGesturePwdLock */ = {
 			isa = PBXGroup;
 			children = (
-				CE9037661E078189000055E6 /* CALayer+LJAnimation.h */,
-				CE9037671E078189000055E6 /* CALayer+LJAnimation.m */,
-				CE9037681E078189000055E6 /* LJGesturePwdLockController.h */,
-				CE9037691E078189000055E6 /* LJGesturePwdLockController.m */,
-				CE90376A1E078189000055E6 /* LJGesturePwdLockHeader.h */,
-				CE90376B1E078189000055E6 /* LJGesturePwdLockItem.h */,
-				CE90376C1E078189000055E6 /* LJGesturePwdLockItem.m */,
-				CE90376D1E078189000055E6 /* LJGesturePwdLockMainView.h */,
-				CE90376E1E078189000055E6 /* LJGesturePwdLockMainView.m */,
-				CE90376F1E078189000055E6 /* LJGesturePwdLockShowItemsView.h */,
-				CE9037701E078189000055E6 /* LJGesturePwdLockShowItemsView.m */,
-				CE9037711E078189000055E6 /* LJGesturePwdLockView.h */,
-				CE9037721E078189000055E6 /* LJGesturePwdLockView.m */,
-				CE9037731E078189000055E6 /* LJGesturePwdOperation.h */,
-				CE9037741E078189000055E6 /* LJGesturePwdOperation.m */,
+				CE90377D1E07C27A000055E6 /* CALayer+LJAnimation.h */,
+				CE90377E1E07C27A000055E6 /* CALayer+LJAnimation.m */,
+				CE90377F1E07C27A000055E6 /* LJGesturePwdLockController.h */,
+				CE9037801E07C27A000055E6 /* LJGesturePwdLockController.m */,
+				CE9037811E07C27A000055E6 /* LJGesturePwdLockHeader.h */,
+				CE9037821E07C27A000055E6 /* LJGesturePwdLockItem.h */,
+				CE9037831E07C27A000055E6 /* LJGesturePwdLockItem.m */,
+				CE9037841E07C27A000055E6 /* LJGesturePwdLockMainView.h */,
+				CE9037851E07C27A000055E6 /* LJGesturePwdLockMainView.m */,
+				CE9037861E07C27A000055E6 /* LJGesturePwdLockShowItemsView.h */,
+				CE9037871E07C27A000055E6 /* LJGesturePwdLockShowItemsView.m */,
+				CE9037881E07C27A000055E6 /* LJGesturePwdLockView.h */,
+				CE9037891E07C27A000055E6 /* LJGesturePwdLockView.m */,
+				CE90378A1E07C27A000055E6 /* LJGesturePwdOperation.h */,
+				CE90378B1E07C27A000055E6 /* LJGesturePwdOperation.m */,
 			);
 			path = LJGesturePwdLock;
 			sourceTree = "<group>";
@@ -322,14 +322,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE90373A1E078172000055E6 /* ViewController.m in Sources */,
-				CE90377B1E078189000055E6 /* LJGesturePwdOperation.m in Sources */,
-				CE9037791E078189000055E6 /* LJGesturePwdLockShowItemsView.m in Sources */,
-				CE9037781E078189000055E6 /* LJGesturePwdLockMainView.m in Sources */,
-				CE9037771E078189000055E6 /* LJGesturePwdLockItem.m in Sources */,
+				CE9037921E07C27A000055E6 /* LJGesturePwdOperation.m in Sources */,
+				CE9037901E07C27A000055E6 /* LJGesturePwdLockShowItemsView.m in Sources */,
+				CE90378F1E07C27A000055E6 /* LJGesturePwdLockMainView.m in Sources */,
+				CE90378E1E07C27A000055E6 /* LJGesturePwdLockItem.m in Sources */,
 				CE9037371E078172000055E6 /* AppDelegate.m in Sources */,
-				CE9037751E078189000055E6 /* CALayer+LJAnimation.m in Sources */,
-				CE90377A1E078189000055E6 /* LJGesturePwdLockView.m in Sources */,
-				CE9037761E078189000055E6 /* LJGesturePwdLockController.m in Sources */,
+				CE90378C1E07C27A000055E6 /* CALayer+LJAnimation.m in Sources */,
+				CE9037911E07C27A000055E6 /* LJGesturePwdLockView.m in Sources */,
+				CE90378D1E07C27A000055E6 /* LJGesturePwdLockController.m in Sources */,
 				CE9037341E078172000055E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,6 +566,7 @@
 				CE90375E1E078174000055E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE90375F1E078174000055E6 /* Build configuration list for PBXNativeTarget "LJGesturePwdLockDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -574,6 +575,7 @@
 				CE9037611E078174000055E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE9037621E078174000055E6 /* Build configuration list for PBXNativeTarget "LJGesturePwdLockDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -582,6 +584,7 @@
 				CE9037641E078174000055E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
