@@ -1,0 +1,2 @@
+# LJGesturePasswordLockDemo
+这是一个手势滑动密码锁控件
