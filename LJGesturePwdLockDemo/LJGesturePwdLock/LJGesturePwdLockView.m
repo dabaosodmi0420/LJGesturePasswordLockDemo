@@ -10,7 +10,6 @@
 #import "LJGesturePwdLockItem.h"
 #import "LJGesturePwdLockHeader.h"
 #import "CALayer+LJAnimation.h"
-
 @interface LJGesturePwdLockView()
 
 /** item数组 */

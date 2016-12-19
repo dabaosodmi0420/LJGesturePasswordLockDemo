@@ -11,6 +11,7 @@
 #import "LJGesturePwdLockHeader.h"
 #import "LJGesturePwdOperation.h"
 #import "CALayer+LJAnimation.h"
+#import <AudioToolbox/AudioToolbox.h>
 #import "LJGesturePwdLockShowItemsView.h"
 @interface LJGesturePwdLockMainView ()
 
@@ -109,6 +110,8 @@
             [LJGesturePwdOperation lj_settingPwd:pwd block:^(BOOL isSuccess, LJPwdOperationSettingType state) {
                 if (state == LJPwdOperationSettingTypePwdMinNum){
                     [self setPromptlTypeWithText:LJGesPromptMes_Setting_MinNum isNormal:NO];
+                    // 震动效果
+                    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
                 }else if (state == LJPwdOperationSettingTypeFirstPwdSet) {
                     [self.showItemsView lj_showPwd:pwd];
                     [self setPromptlTypeWithText:LJGesPromptMes_Setting_AgainValidate isNormal:YES];
@@ -121,6 +124,8 @@
                         }
                     }else{
                         [self setPromptlTypeWithText:LJGesPromptMes_Setting_ValidateFail isNormal:NO];
+                        // 震动效果
+                        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
                     }
                 }
                 
@@ -136,8 +141,12 @@
                     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                         self.gesturePwdUseType = LJGesturePwdLockUseTypeSetting;
                     });
+                    // 震动效果
+                    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
                 }else if (state == LJPwdOperationResettingTypeValidateFail){
                     [self setPromptlTypeWithText:LJGesPromptMes_Re_Va_ValidateFail isNormal:NO];
+                    // 震动效果
+                    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
                 }else if (state == LJPwdOperationResettingTypeValidateSuccess){
                     self.gesturePwdUseType = LJGesturePwdLockUseTypeSetting;
                 }
@@ -153,8 +162,12 @@
                     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                         self.gesturePwdUseType = LJGesturePwdLockUseTypeSetting;
                     });
+                    // 震动效果
+                    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
                 }else if (state == LJPwdOperationValidateTypeValidateFail){
                     [self setPromptlTypeWithText:LJGesPromptMes_Re_Va_ValidateFail isNormal:NO];
+                    // 震动效果
+                    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
                 }else if (state == LJPwdOperationValidateTypeValidataSuccess){
                     [self setPromptlTypeWithText:LJGesPromptMes_Validate_PwdSuccess isNormal:YES];
                     [self.showItemsView lj_showPwd:pwd];
