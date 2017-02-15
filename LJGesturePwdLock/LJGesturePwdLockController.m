@@ -9,12 +9,15 @@
 #import "LJGesturePwdLockController.h"
 #include "LJGesturePwdLockMainView.h"
 #import "LJGesturePwdLockHeader.h"
+#import "LJFingerprintApi.h"
 @interface LJGesturePwdLockController ()
 
 @property (nonatomic, strong) LJGesturePwdLockMainView *gestureMainView;
 
-/** <# explain #> */
 @property (nonatomic, strong) UILabel *titleLabel;
+
+/**  */
+@property (nonatomic, strong) UIButton *fingerprintBtn;
 
 @end
 
@@ -90,10 +93,35 @@
         {
             self.titleLabel.text = LJGesTitle_Validate;
             _gestureMainView.gesturePwdUseType = LJGesturePwdLockUseTypeValidate;
+            
+            /** 当为验证信息的时候添加指纹验证功能 */
+            [self.view addSubview:self.fingerprintBtn];
+            [self fingerprintClick];
         }
             break;
         default:
             break;
     }
 }
+
+- (void)fingerprintClick{
+    [LJFingerprintApi lj_fingerprintValidateWithMessage:nil block:^(BOOL isSuccess) {
+        if (isSuccess) {
+            [self dismissViewControllerAnimated:YES completion:nil];
+        }
+    }];
+}
+
+- (UIButton *)fingerprintBtn{
+    if (!_fingerprintBtn) {
+        _fingerprintBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+        _fingerprintBtn.frame =  CGRectMake( LJGesturePwdLockUseIphoneWidth - 80, 30, 60, 30);
+        [_fingerprintBtn setTitle:@"指纹验证" forState:UIControlStateNormal];
+        [_fingerprintBtn setTitleColor:LJGesturePwdLockColorPromptLabel forState:UIControlStateNormal];
+        _fingerprintBtn.titleLabel.font = [UIFont systemFontOfSize:14];
+        [_fingerprintBtn addTarget:self action:@selector(fingerprintClick) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _fingerprintBtn;
+}
+
 @end

@@ -20,4 +20,5 @@ typedef enum : NSUInteger {
 @property (nonatomic, assign) LJGesturePwdType type;
 
 
+
 @end

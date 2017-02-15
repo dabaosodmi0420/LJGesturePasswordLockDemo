@@ -22,6 +22,7 @@
 		CE9037901E07C27A000055E6 /* LJGesturePwdLockShowItemsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037871E07C27A000055E6 /* LJGesturePwdLockShowItemsView.m */; };
 		CE9037911E07C27A000055E6 /* LJGesturePwdLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9037891E07C27A000055E6 /* LJGesturePwdLockView.m */; };
 		CE9037921E07C27A000055E6 /* LJGesturePwdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE90378B1E07C27A000055E6 /* LJGesturePwdOperation.m */; };
+		CE9D6CC71E5441FF009608B9 /* LJFingerprintApi.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9D6CC61E5441FF009608B9 /* LJFingerprintApi.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		CE9037891E07C27A000055E6 /* LJGesturePwdLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdLockView.m; sourceTree = "<group>"; };
 		CE90378A1E07C27A000055E6 /* LJGesturePwdOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJGesturePwdOperation.h; sourceTree = "<group>"; };
 		CE90378B1E07C27A000055E6 /* LJGesturePwdOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJGesturePwdOperation.m; sourceTree = "<group>"; };
+		CE9D6CC51E5441FF009608B9 /* LJFingerprintApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJFingerprintApi.h; sourceTree = "<group>"; };
+		CE9D6CC61E5441FF009608B9 /* LJFingerprintApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJFingerprintApi.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 		CE9037311E078172000055E6 /* LJGesturePwdLockDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CE9D6CC51E5441FF009608B9 /* LJFingerprintApi.h */,
+				CE9D6CC61E5441FF009608B9 /* LJFingerprintApi.m */,
 				CE9037351E078172000055E6 /* AppDelegate.h */,
 				CE9037361E078172000055E6 /* AppDelegate.m */,
 				CE9037381E078172000055E6 /* ViewController.h */,
@@ -323,6 +328,7 @@
 			files = (
 				CE90373A1E078172000055E6 /* ViewController.m in Sources */,
 				CE9037921E07C27A000055E6 /* LJGesturePwdOperation.m in Sources */,
+				CE9D6CC71E5441FF009608B9 /* LJFingerprintApi.m in Sources */,
 				CE9037901E07C27A000055E6 /* LJGesturePwdLockShowItemsView.m in Sources */,
 				CE90378F1E07C27A000055E6 /* LJGesturePwdLockMainView.m in Sources */,
 				CE90378E1E07C27A000055E6 /* LJGesturePwdLockItem.m in Sources */,
