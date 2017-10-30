@@ -18,6 +18,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor yellowColor];
     
+    NSLog(@"hahhaha");
 }
 - (IBAction)setting:(id)sender {
     LJGesturePwdLockController *gestureVC = [[LJGesturePwdLockController alloc]init];
