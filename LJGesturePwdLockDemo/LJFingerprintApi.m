@@ -29,13 +29,25 @@ LJFingerprintApiBlock _block;
     //错误对象
     NSError* error = nil;
     NSString* result = message == nil ? @"通过Home键验证指纹解锁" : message;
-    
+     NSString *localizedReason = @"指纹登录";
     //首先使用canEvaluatePolicy 判断设备支持状态
     if ([context canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&error]) {
+        if (@available(iOS 11.0, *)) {
+            
+            if (context.biometryType == LABiometryTypeTouchID) {
+                
+                
+                
+            }else if (context.biometryType == LABiometryTypeFaceID){
+                
+                localizedReason = @"人脸识别";
+                
+            }
+            
+        }
         //支持指纹验证
         [context evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics localizedReason:result reply:^(BOOL success, NSError *error) {
             if (success) {
-                
                 NSLog(@"验证成功");
                 //验证成功，主线程处理UI
                 [[NSOperationQueue mainQueue] addOperationWithBlock:^{

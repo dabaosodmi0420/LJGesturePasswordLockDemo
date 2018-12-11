@@ -171,11 +171,11 @@
 		CE90377C1E07C27A000055E6 /* LJGesturePwdLock */ = {
 			isa = PBXGroup;
 			children = (
+				CE9037811E07C27A000055E6 /* LJGesturePwdLockHeader.h */,
 				CE90377D1E07C27A000055E6 /* CALayer+LJAnimation.h */,
 				CE90377E1E07C27A000055E6 /* CALayer+LJAnimation.m */,
 				CE90377F1E07C27A000055E6 /* LJGesturePwdLockController.h */,
 				CE9037801E07C27A000055E6 /* LJGesturePwdLockController.m */,
-				CE9037811E07C27A000055E6 /* LJGesturePwdLockHeader.h */,
 				CE9037821E07C27A000055E6 /* LJGesturePwdLockItem.h */,
 				CE9037831E07C27A000055E6 /* LJGesturePwdLockItem.m */,
 				CE9037841E07C27A000055E6 /* LJGesturePwdLockMainView.h */,
@@ -257,7 +257,7 @@
 				TargetAttributes = {
 					CE90372E1E078172000055E6 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = DXV95ACF77;
+						DevelopmentTeam = 8BUST2XL8A;
 						ProvisioningStyle = Automatic;
 					};
 					CE9037471E078173000055E6 = {
@@ -483,7 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DXV95ACF77;
+				DEVELOPMENT_TEAM = 8BUST2XL8A;
 				INFOPLIST_FILE = LJGesturePwdLockDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LJ.LJGesturePwdLockDemo;
@@ -495,7 +495,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = DXV95ACF77;
+				DEVELOPMENT_TEAM = 8BUST2XL8A;
 				INFOPLIST_FILE = LJGesturePwdLockDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LJ.LJGesturePwdLockDemo;
