@@ -7,13 +7,7 @@
 //
 
 #import "CALayer+LJAnimation.h"
-
-
-
 @interface CALayer()
-
-
-
 @end
 
 LJAniCompleteBlock block = nil;
